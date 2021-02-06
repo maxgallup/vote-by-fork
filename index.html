@@ -3,80 +3,37 @@
 <head>
     <title>vote by fork</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="widtd=device-widtd, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
 </head>
 <body>
-    <section id="topics">
-        <ol>
-            <li>Animal deaths</li>
-            <li>Carbon Footprint</li>
-        </ol>
-    </section>
-    <section id="carbon footprint">
-        <table>
-            <tdead>
-                <tr>
-                    <th>Food</th>
-                    <th>Amount of Carbon(kg)</th>
-                </tr>
-                <tr>
-                    <td>Beef</td>
-                    <td>25</td>
-                </tr>
-                <tr>
-                    <td>Lamb</td>
-                    <td>20</td>
-                </tr>
-                <tr>
-                    <td>Farmed Shrimp</td>
-                    <td>10</td>
-                </tr>
-                <tr>
-                    <td>Cheese</td>
-                    <td>8.4</td>
-                </tr>
-                <tr>
-                    <td>Pork</td>
-                    <td>6.5</td>
-                </tr>
-                <tr>
-                    <td>Chicken</td>
-                    <td>4.3</td>
-                </tr>
-                <tr>
-                    <td>Eggs</td>
-                    <td>3.8</td>
-                </tr>
-                <tr>
-                    <td>Farmed fish</td>
-                    <td>3.5</td>
-                </tr>
-                <tr>
-                    <td>Tofu</td>
-                    <td>1.6</td>
-                </tr>
-                <tr>
-                    <td>Beans</td>
-                    <td>0.65</td>
-                </tr>
-                <tr>
-                    <td>Peas</td>
-                    <td>0.36</td>
-                </tr>
-                <tr>
-                    <td>Nuts</td>
-                    <td>-0.8</td>
-                </tr>
-            </tdead>
-        </table>
-        <caption><a href="#">source</a></caption>
-    </section>
-    <section id="sources">
+    <h1 id="titleMessage">In 2019 9,761,764,100 Animals have been killed for food in the United States</h1>
+    <div id="liveCounterArea">
         <ul>
-            <li><a href="https://ourworldindata.org/less-meat-or-sustainable-meat">Carbon Footprint</a></li>
+            <li class="liveNumbers"><span>Total: </span><span id="liveTotal"></span></li>
+            <li class="liveNumbers"><span>Chickens: </span><span id="liveChickens"></span></li>
+            <li class="liveNumbers"><span>Turkeys: </span><span id="liveTurkeys"></span></li>
+            <li class="liveNumbers"><span>Hogs: </span><span id="liveHogs"></span></li>
+            <li class="liveNumbers"><span>Cattle: </span><span id="liveCattle"></span></li>
+            <li class="liveNumbers"><span>Ducks: </span><span id="liveDucks"></span></li>
+            <li class="liveNumbers"><span>Sheep: </span><span id="liveSheep"></span></li>
+            <li class="liveNumbers"><span>Calves: </span><span id="liveCalves"></span></li>
         </ul>
-    </section>
+    </div>
+
+    <div id="totals">
+        <ul>
+            <li>Total Land Animal Slaughter: 9,761,764,100</li>
+            <li>Chickens: 9,339,249,000</li>
+            <li>Turkeys: 227,660,000</li>
+            <li>Ducks: 27,544,000</li>
+            <li>Cattle: 34,300,000</li>
+            <li>Calves: 608,900</li>
+            <li>Hogs: 129,989,000</li>
+            <li>Sheep: 2,413,200</li>
+        </ul>
+    </div>
 </body>
 <footer>
     
